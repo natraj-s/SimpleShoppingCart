@@ -1,0 +1,426 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11px;
+}
+
+a.header, a.header:visited, a.header:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+a {
+	color: #808080;
+	text-decoration: none;
+	
+}
+
+a:visited {
+	color: #145251;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #0eb4a3;
+}
+
+ div.createsuccess, div.loggedout {
+ 	margin-top: 100px;
+ 	padding-top: 10px;
+ }
+
+table.splash {
+	margin-top: 100px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #000000;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	font-weight: 800;
+}
+
+td.splashLogin {
+	border-right: 1px dotted #000000;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+td.splashNew {
+	border-left: 1px dotted #000000;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.outerheader {
+	background: #f3f3f3;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	direction: ltr;
+}
+
+.innerheader {
+	display: flex;
+	direction: ltr;
+	min-width: 1034px;
+	margin: auto;
+	height: 80px;
+	position: relative;
+}
+
+.outeracctheader {
+	background: #f3f3f3;
+	position: fixed;
+	top: 80px;
+	left: 0;
+	width: 100%;
+	height: 45px;
+	display: flex;
+	direction: ltr;
+	border-bottom: 1px solid #000;
+}
+
+.inneracctheader {
+	display: flex;
+	direction: ltr;
+	min-width: 1034px;
+	margin: auto;
+	height: 45px;
+	position: relative;
+}
+
+
+.titlebar {
+	padding-left: 10px;
+	display: block;
+	flex: 1 1 auto;
+	justify-content: inherit;
+	line-height: 4em;
+	overflow: hidden;
+	float: left;
+	text-align: left;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 20px;
+}
+
+.info {
+	padding-right: 10px;
+	display: block;
+	direction: ltr;6
+	flex: 0 0 auto;
+	justify-content: flex end;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	text-align: right;
+	line-height: 70%;
+}
+
+.accountheader {
+	padding-left: 10px;
+	display: block;
+	flex: 1 1 auto;
+	justify-content: inherit;
+	line-height: 3em;
+	overflow: hidden;
+	float: left;
+	text-align: left;
+	float: left;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 16px;
+}
+
+.accountlogoutlink {
+	padding-right: 10px;
+	display: block;
+	direction: ltr;6
+	flex: 0 0 auto;
+	justify-content: flex end;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	text-align: right;
+	line-height: 3em;
+}
+
+table.loginform {
+	margin-top: 100px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	vertical-align: center;
+}
+
+td.email, td.password, td.repeatpassword, tr.createaccountmsg {
+	font-size: 13px;
+}
+
+td.email, td.password, td.repeatpassword {
+	text-align:left;
+	padding: 0 2em 0 2em;
+}
+
+td.email > label, td.password > label, td.repeatpassword > label {
+	font-weight: 800;
+}
+
+td.emailMessage, td.pwdMessage, td.validationMessage {
+	text-align: right;
+	color: #e7625f;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+td.validationMessage {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+tr.login > td{
+	padding-top: 2em;
+	text-align: center;
+	vertical-align: center;
+}
+
+tr.login > td > input[type=submit] {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:5px 15px; 
+	background:#808080; 
+	border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+ }
+
+ 
+ 
+tr.login > td > input[type=submit]:hover { 
+	background:#ccc; 
+    color: #0eb4a3
+ }
+ 
+tr.addtocart > td > form > input[type=submit], tr.removefromcart > td > form > input[type=submit] {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:5px 15px; 
+	background:#808080;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+	background: -moz-linear-gradient(top, #ffffff 0%, #efefef 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#efefef 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#efefef 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#efefef 100%); /* W3C */ 
+	border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border: 1px solid #AAA;
+    font-weight:600;
+}
+
+tr.addtocart > td > form > button {
+	font-family: 'Source Sans Pro', sans-serif;
+	padding:5px 15px; 
+	background:#808080; 
+	border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-weight:600;
+}
+
+tr.addtocart > td, tr.removefromcart > td, .active{
+	padding-top: 1em;
+	padding-bottom: 2em;
+	vertical-align: center;
+	text-align: center;
+}
+
+tr.addtocart > td > form > input[type=submit]:hover, tr.removefromcart > td > form > input[type=submit]:hover { 
+	background:#ccc; 
+    color: #0eb4a3;
+    background: -moz-linear-gradient(top, #efefef 0%, #bbbbbb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#efefef), color-stop(100%,#bbbbbb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* IE10+ */
+	background: linear-gradient(top, #efefef 0%,#bbbbbb 100%); /* W3C */
+    
+}
+
+.hidden {
+	display: none;
+}
+
+ 
+tr.addtocart > td > form > button:hover { 
+	background:#ccc; 
+    color: #0eb4a3
+ }
+ 
+ input[type=text], input[type=password] {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 13px;
+	width: 150px;
+}
+
+tr.createaccountmsg  {
+	text-align: center;
+	vertical-align: center;
+	width: 100%;
+}
+
+table.items {
+	margin-top: 150px;
+	padding-top: 10px;
+	border-bottom: 1px solid #00000;
+}
+
+#itemrow {
+	vertical-align: center;
+	display: inherit;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+td.spacecells {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+td.additem, td.emptyitem {
+	width: 300px;
+	height: 300px;
+	border: 10px solid #333333;
+	 -webkit-border-radius: 15px;
+    border-radius: 15px; 
+	background: #f3f3f3;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	color: #404040;
+	text-align: center;
+	font-weight: 800;
+	cursor: pointer;
+}
+
+td.additem img, td.emptyitem img {
+	-webkit-transition: opacity .2s ease-in-out;
+ 	-moz-transition: opacity .2s ease-in-out;
+  	-ms-transition: opacity .2s ease-in-out;
+  	-o-transition: opacity .2s ease-in-out;
+  	transition: opacity .2s ease-in-out;
+  	filter: alpha(opacity=25);
+  	opacity: 0.25
+
+}
+
+td.additem:hover, td.additem > img:hover, td.emptyitem:hover, td.emptyitem > img:hover {
+	zoom: 1;
+  	filter: alpha(opacity=100);
+  	opacity: 1.0;
+	background: #d8d8d8;
+	font-size: 18px;
+}
+
+td.additem a, td.emptyitem a {
+	font-size: 18px;
+	color: #404040;
+	width: 100%;
+	display:block;
+	line-height: 300px;
+}
+
+td.additem a:hover, td.emptyitem a:hover {
+	font-size: 18px;
+	color: #0eb4a3;
+}
+
+td.myitem {
+	width: 300px;
+	height: 300px;
+	border: 10px solid #333333;
+	 -webkit-border-radius: 15px;
+    border-radius: 15px; 
+    -webkit-transition: background-color .5s ease-in-out;
+ 	-moz-transition: background-color .5s ease-in-out;
+  	-ms-transition: background-color .5s ease-in-out;
+  	-o-transition: background-color .5s ease-in-out;
+  	transition: background-color .5s ease-in-out;
+	background: #f3f3f3;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	color: #404040;
+	text-align: center;
+	font-weight: 200;
+	cursor: pointer;
+}
+
+td.myitem > img {
+	border: 1px solid #000;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+td.myitem > p > label {
+	font-size:13px;
+	font-weight: 800;
+}
+
+td.myitem > p {
+	display: block;
+}
+
+td.myitem:hover {
+	-webkit-transition: background-color .5s ease-in-out;
+ 	-moz-transition: background-color .5s ease-in-out;
+  	-ms-transition: background-color .5s ease-in-out;
+  	-o-transition: background-color .5s ease-in-out;
+  	transition: background-color .5s ease-in-out;
+  	background: -moz-linear-gradient(top, #ffffff 0%, #0eb4a3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#0eb4a3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#0eb4a3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#0eb4a3 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#0eb4a3 100%); /* IE10+ */
+	background: linear-gradient(top, #ffffff 0%,#0eb4a3 100%); /* W3C */ 
+}
+
+td.active, td.active > img, td.active:hover,  td.active > img:hover {
+	width: 300px;
+	height: 300px;
+	border: 10px solid #333333;
+	 -webkit-border-radius: 15px;
+    border-radius: 15px; 
+	background: #ccc;
+	color: #404040;
+	text-align: center;
+	opacity: 1.0;
+}
+
+.highlighted {
+	width: 300px;
+	height: 300px;
+	border: 10px solid #0eb4a3;
+	 -webkit-border-radius: 15px;
+    border-radius: 15px; 
+  	filter: alpha(opacity=100);
+  	opacity: 1.0;
+	background: #d8d8d8;
+	text-align: center;
+	cursor: pointer;
+	font-size: 12px;
+	color: #404040;
+}
+
+.highlighted > p > label {
+	font-size:13px;
+	font-weight: 800;
+}
+
+.highlighted > img {
+	border: 1px solid #000;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.highlighted > p {
+	display: block;
+}
