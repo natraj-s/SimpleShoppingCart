@@ -12,6 +12,7 @@ MySQL JDBC connection
 
 # Configure MySQL database
 Run the webshop.sql file attached with this project to create a database named webshop and 3 tables: 
+
   items
   
   login
