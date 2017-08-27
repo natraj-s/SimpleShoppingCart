@@ -5,7 +5,9 @@ You can also remove movies from your watchlist.
 
 # Preqrequisites
 JDK 7
+
 Tomcat 9
+
 MySQL JDBC connection
 
 # Configure MySQL database
